@@ -1,0 +1,21 @@
+.postCard {
+    padding: 13px;
+    border: 1px solid rgb(222, 220, 220);
+    margin-bottom: 10px;
+}
+.postCardImage {
+    object-fit:cover;
+    height: 200px;
+}
+.postCardTitle {
+    margin: 0 0 .4em;
+    font-size: 1.4rem;
+    transition: color .2s ease-in-out;
+    color: black;
+}
+
+.postContainer {
+    padding: 13px;
+    border: 1px solid rgb(222, 220, 220);
+    margin-bottom: 10px;
+}
