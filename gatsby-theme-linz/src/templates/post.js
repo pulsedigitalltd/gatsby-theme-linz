@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import Post from '../components/post';
 
- const query = graphql`
+export const query = graphql`
   query($postID: String!) {
     ghostPost(id: { eq: $postID }) {
       id

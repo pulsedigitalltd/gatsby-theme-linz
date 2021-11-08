@@ -13,7 +13,12 @@ When working with Gatsby, once you start to build out your theme in order to run
 
 To get this demo running do the following:
 
-1.  Run YARN from the root of this repo to download and install dependencies.
 
-2.  
+1.  Install Yarn and the Gatsby CLI  
+
+2.  Clone this repo and then run 'yarn' from the root of the repo to download and install dependencies for all folders.
+
+3.  from the root of the repo run the developer server for the site application using 'yarn workspace site develop', this will establish a dev server at 'http://localhost:8000' and a GraphQL instance at 'http://localhost:8000/___graphql'
+
+4. If changes are made to the site structure or page conmtent, stop the dev server and run again to rebuild the content. You can sue use 'yarn workspace gatsby-theme-linz build' to create a final static version for publishing. 
 
