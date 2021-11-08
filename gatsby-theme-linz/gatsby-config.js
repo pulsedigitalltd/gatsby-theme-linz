@@ -5,13 +5,17 @@ module.exports = ({ contentPath = 'data', basePath = '/' }) => ({
     basePath
   },
   plugins: [
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp', // Needed for dynamic images
     {
-      resolve: `gatsby-source-ghost`,
+      resolve: 'gatsby-source-ghost',
       options: {
-        apiUrl: `https://gatsby.ghost.io`,
-        contentApiKey: `9cc5c67c358edfdd81455149d0`,
+        apiUrl: 'https://gatsby.ghost.io',
+        contentApiKey: '9cc5c67c358edfdd81455149d0'
       },
-    }
+    },
+    
   ]
 });
   
