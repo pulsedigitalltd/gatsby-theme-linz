@@ -34,5 +34,12 @@ This repo by default uses a demo Ghost CMS api, to test locally with your own Gh
 To find your Ghost CMS apiUrl and contentApiKey login to your ghost admin interface at 'https://ghostcmsdomain/ghost and add a custom integration for GatsbyJS, this will provide a new apiUrl and contentApiKey, replace in the config file and restart the local dev server as per step 3.
 
 #   Notes
-This repo was hacked together! and is certainly just a demo of how to get Ghost CMS data into a Gatsby portable theme, be kind :) Any LUI styles added are just for indication and should be done properly with LUI packages etc, but then you know that!
+This repo was hacked together! and is just meant as a demo of how to get Ghost CMS data into a Gatsby portable theme, be kind :) Any LUI styles added are just for indication and should be done properly with: 
+
+- LUI packages
+- Typescript
+- Gatsby image plugins for static and dynamic images
+- Use of up to date React and NPM libraries 
+
+but then you already noticed that!
 
