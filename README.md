@@ -5,7 +5,7 @@ This example theme uses Yarn workspaces, to learn more look here https://yarnpkg
 
 The structure of this repo is made up of the following root folders, 'gatsby-theme-linz' is the Gatsby theme and 'site' is an example implementation of a basic gatsby site that uses the 'gatsby-theme-linz' theme.
 
-When working with Gatsby, once you start to build out your theme in order to run you need to create a new gatsbvy site and load the theme in order for it to run, this is why you will use 'site' to test the theme.
+When working with Gatsby, once you start to build out your theme in order to run you need to create a new gatsby site and load the theme in order for it to run, this is why you will use 'site' to test the theme.
 
 Ultimately the 'gatsby-theme-linz' folder should be published as an NPM package or alternaive to allow easier usage in the blog site.
 
