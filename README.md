@@ -9,7 +9,7 @@ When working with Gatsby, once you start to build out your theme in order to run
 
 Ultimately the 'gatsby-theme-linz' folder should be published as an NPM package or alternaive to allow easier usage in the blog site.
 
-- root
+--> root
 ---> gatsby-theme-linz
 ---> site
 
