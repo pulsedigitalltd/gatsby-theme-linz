@@ -34,5 +34,5 @@ jobs:
           action: 'upload'
           app_location: '/site'
           api_location: ''
-          output_location: '/site/publish'
+          output_location: ''
           app_build_command: 'npm run build'
