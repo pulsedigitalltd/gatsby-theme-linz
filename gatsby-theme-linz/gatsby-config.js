@@ -1,8 +1,8 @@
-module.exports = ({ contentPath = 'data', basePath = '/' }) => ({
+module.exports = ({ contentPath = 'data', basePath = '' }) => ({
   siteMetadata: {
     title: 'LINZ Engineering Blog',
     headline: '',
-    basePath
+    basePath: ''
   },
   plugins: [
     'gatsby-plugin-image',

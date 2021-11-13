@@ -1,7 +1,5 @@
 const fs = require('fs');
 
-
-
   exports.createPages = async ({ actions, graphql, reporter }, options) => {
     const basePath = options.basePath || '/';
     actions.createPage({

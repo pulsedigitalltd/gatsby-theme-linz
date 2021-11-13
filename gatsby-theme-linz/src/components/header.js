@@ -12,7 +12,7 @@ const Header = ({ children }) => {
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-            <title>Static Template</title>
+            <title>LINZ Engineering Blog</title>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&display=swap"/>
             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"/>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600&display=swap"/>
