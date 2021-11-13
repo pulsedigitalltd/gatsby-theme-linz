@@ -1,5 +1,6 @@
 # gatsby-theme-linz
 [![CI](https://github.com/pulsedigitalltd/gatsby-theme-linz/actions/workflows/main.yml/badge.svg)](https://github.com/pulsedigitalltd/gatsby-theme-linz/actions/workflows/main.yml)
+
 Example Gatsby theme with Ghost CMS data feed for the LINZ Engineering Blog. 
 
 This example theme uses Yarn workspaces, to learn more look here https://yarnpkg.com/features/workspaces
