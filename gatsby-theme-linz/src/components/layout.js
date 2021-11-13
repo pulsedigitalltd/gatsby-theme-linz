@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./header";
+import { Link } from "gatsby";
 import logo from "./images/linz-logo.svg";
 
 const Layout = ({ children }) => {
@@ -14,7 +15,7 @@ const Layout = ({ children }) => {
                      <div class="lui-header-col-1 linz-logo-container">
                         <div class="g-flex-row">
                         <div class="lui-header-logo">
-                           <a href="/"><img class="linz-logo" src={logo} /></a>
+                           <Link to="/"><img class="linz-logo" src={logo} /></Link>
                         </div>
                         <div class="lui-header-title">
                            <h1>LINZ Engineering Blog</h1>

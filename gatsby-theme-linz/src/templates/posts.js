@@ -29,6 +29,7 @@ const PostsTemplate = () => {
               slug
               profile_image
             }
+            visibility
           }
         }
       }

@@ -1,5 +1,5 @@
 import React from "react";
-import * as theme from "../styles/theme.css"
+import * as theme from "../styles/theme.css";
 
 /*
 HTML formatted blog post body string needs to be sanitised and rendered correctly for safety, have just dumped to the page for now. 
