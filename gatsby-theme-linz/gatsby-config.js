@@ -12,8 +12,8 @@ module.exports = ({ contentPath = "data", basePath = "" }) => ({
     {
       resolve: "gatsby-source-ghost",
       options: {
-        apiUrl: "http://localhost:2368",
-        contentApiKey: "ed06699835a1e224f5e54c41ab",
+        "apiUrl": "https://gatsby.ghost.io",
+        "contentApiKey": "9cc5c67c358edfdd81455149d0"
       },
     },
   ],
