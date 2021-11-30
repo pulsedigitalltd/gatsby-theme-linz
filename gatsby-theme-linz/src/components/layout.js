@@ -14,7 +14,6 @@ const Layout = ({ children }) => {
           <Header />
             <div id="root" class="sb-show-main sb-main-padded">
                 <div class="lui-pading-bottom-xl"> 
-                  <h1 class="demo-type">Posts</h1> 
                     {children}
                 </div>              
             </div>
