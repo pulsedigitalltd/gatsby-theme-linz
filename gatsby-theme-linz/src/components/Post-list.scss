@@ -1,0 +1,56 @@
+.PostsPage {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+.PostsShadow {
+    box-shadow: 0 0 1.5rem 1px rgb(0 113 152 / 10%);
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #fff;
+}
+.PostsBody {
+    padding: 10px 0;
+}
+
+.PostsAuthor {
+    display: flex;
+    position: relative;
+    margin: 1rem 0;
+}
+.PostsAuthorName {
+    padding: 0 10px;
+}
+
+
+img.profileImage {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 45px;
+}
+img.blogImage {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+a {
+    font-family: "Open Sans",system-ui,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-size: large;   
+}
+.postTags{
+    margin: 10px 0 20px 0;
+}
+.postTag {
+    border: 1px solid silver;
+    padding: 3px 8px;
+    border-radius: 15px;
+    margin-right: 5px;
+    background-color: #efefef;
+    font-weight: 600;
+}

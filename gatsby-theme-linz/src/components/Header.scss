@@ -1,0 +1,27 @@
+.TitlesHeader {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+
+  .linz-motif {
+    height: 24px !important;
+  }
+
+  .lui-header-row {
+    padding: 0 24px;
+  }
+
+  .lui-header-title h1 {
+    font-size: 24px !important;
+    line-height: 1 !important;
+  }
+
+  .lui-menu-label {
+    font-size: 14px !important;
+    line-height: 1 !important;
+  }
+
+  .lui-header-menu-icon i {
+    font-size: 24px !important;
+  }
+}

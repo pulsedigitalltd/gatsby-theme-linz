@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import Layout from '../components/layout';
-import PostList from '../components/post-list';
+import Layout from '../components/Layout';
+import PostList from '../components/Post-list';
 
 const PostsTemplate = () => {
   const data = useStaticQuery(graphql`
@@ -17,6 +17,7 @@ const PostsTemplate = () => {
             meta_title
             meta_description
             title
+            custom_excerpt
             url
             updated_at(formatString: "MMMM DD YYYY")
             reading_time
@@ -30,6 +31,10 @@ const PostsTemplate = () => {
               profile_image
             }
             visibility
+            tags {
+              slug
+              name
+            }
           }
         }
       }
