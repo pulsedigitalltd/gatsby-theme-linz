@@ -28,6 +28,6 @@
         "gatsby-source-ghost": "^4.2.4",
         "gatsby-transformer-sharp": "^4.1.0",
         "resolve-url-loader": "^4.0.0",
-        "sass": "^1.43.4"
+        "sass": "1.38.1"
     }
 }

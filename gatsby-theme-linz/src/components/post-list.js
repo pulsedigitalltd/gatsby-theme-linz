@@ -1,28 +1,34 @@
 import React from "react";
 import { Link } from "gatsby";
 import * as theme from "../styles/theme.css"
+import "./Post-list.scss";
 
 const PostList = ({ posts }) => {
     return (
         <>
-            <div class="g-flex-container">
-                <div class="g-flex-row">
-                    {posts.map(({ node }) => (
-                        <div key={node.id} class="g-flex-col g-flex-col-xs-4 g-flex-col-sm-4 g-flex-col-md-4 g-flex-col-lg-4">
-                            <article class="postCard">
-                                <Link to={node.slug}>
-                                    <img class="postCardImage" src={node.feature_image} width="100%" height="200"/>
-                                    {node.title}
-                                </Link>
-                                <p>Published: {node.created_at}</p>
-                                <p>Reading time: {node.reading_time} minute(s)</p>
-                                <p>Author: <strong>{node.primary_author.name} </strong></p>
-                                
-                            </article>
-                        </div>  
-                    ))}                     
-                </div>
-            </div>
+            <section data-testid={"Posts Page"} className={"PostsPage"}>
+
+                {posts.map(({ node }) => (
+                    <article class="postCard PostsShadow">
+                        <Link to={node.slug}>
+                            <div><img class="blogImage" src={node.feature_image} /></div>
+                            <h4>{node.title}</h4>
+                        </Link>
+                        <div class="PostsBody">{node.custom_excerpt}</div>
+                        <div class="postTags">
+                        {node.tags.map(({ tags }, index) => {
+                            return <small class="postTag">{node.tags[index].name} </small>
+                        })} 
+                        </div> 
+                        <hr/> 
+                        <div class="PostsAuthor">
+                            <img class="profileImage" src={node.primary_author.profile_image} /> 
+                            <div class="PostsAuthorName">By <strong>{node.primary_author.name}</strong>
+                            <div class="PostsAuthorPublished"><small>On {node.created_at}</small></div></div>
+                        </div>                        
+                    </article>
+                ))}                     
+            </section>
         </>
     )
 };
