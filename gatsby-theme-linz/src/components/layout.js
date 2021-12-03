@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./header";
+import Footer from "./footer";
 import "@linzjs/lui/dist/fonts";
 import "@linzjs/lui/dist/scss/base.scss";
 import { Link } from "gatsby";
-import "./Layout.scss";
+import "./layout.scss";
 
 const Layout = ({ children }) => {
   return (

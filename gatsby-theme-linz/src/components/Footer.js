@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.scss";
+import "./footer.scss";
 import nzgovtlogo from "../images/nz-govt-logo-rev.svg"
 
 const Footer = () => (

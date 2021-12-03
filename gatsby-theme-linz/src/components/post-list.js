@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import * as theme from "../styles/theme.css"
-import "./Post-list.scss";
+import "./post-list.scss";
 
 const PostList = ({ posts }) => {
     return (

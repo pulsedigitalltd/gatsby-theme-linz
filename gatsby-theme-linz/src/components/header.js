@@ -3,7 +3,7 @@ import "@linzjs/lui/dist/fonts";
 import "@linzjs/lui/dist/scss/base.scss";
 import { LuiHeader } from "@linzjs/lui";
 import { Link } from "gatsby";
-import "./Header.scss";
+import "./header.scss";
 
 const Header = () => {
   return (

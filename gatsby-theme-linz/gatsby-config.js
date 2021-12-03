@@ -5,7 +5,6 @@ module.exports = ({ contentPath = "data", basePath = "" }) => ({
     basePath: "",
   },
   plugins: [
-    "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-plugin-sass",
     "gatsby-transformer-sharp",
