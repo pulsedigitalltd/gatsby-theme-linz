@@ -21,6 +21,7 @@
     "dependencies": {
         "@linzjs/lui": "^10.11.1",
         "@linzjs/style": "^3.4.0",
+        "@loadable/component": "^5.15.0",
         "gatsby-plugin-image": "^2.1.0",
         "gatsby-plugin-sass": "^5.2.0",
         "gatsby-plugin-sharp": "^4.1.0",

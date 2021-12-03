@@ -1,9 +1,12 @@
 import React from "react";
+import loadable from '@loadable/component'
 import "@linzjs/lui/dist/fonts";
 import "@linzjs/lui/dist/scss/base.scss";
-import { LuiHeader } from "@linzjs/lui";
+//import { LuiHeader } from "@linzjs/lui";
 import { Link } from "gatsby";
 import "./header.scss";
+
+const LuiHeader = loadable(() => import('@linzjs/lui'))
 
 const Header = () => {
   return (
