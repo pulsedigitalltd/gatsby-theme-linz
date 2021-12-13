@@ -1,8 +1,8 @@
 {
     "name": "gatsby-theme-linz",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
-    "main": "index.js",
+    "main": "gatsby-config.js",
     "scripts": {
         "build": "gatsby build",
         "develop": "gatsby develop",
@@ -19,7 +19,7 @@
         "react-dom": "^17.0.2"
     },
     "dependencies": {
-        "@linzjs/lui": "^10.11.1",
+        "@linzjs/lui": "^11.1.6",
         "@linzjs/style": "^3.4.0",
         "@loadable/component": "^5.15.0",
         "gatsby-plugin-image": "^2.1.0",
